@@ -22,7 +22,7 @@ const agtech = {
       autoPrefetch: "hover",
       menu: [],
       mode: "light",
-      lang: "no",
+      lang: "nb",
       isMobileMenuOpen: false,
       featured: {
         showOnList: false,

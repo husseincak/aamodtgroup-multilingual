@@ -10,7 +10,7 @@ const settings =
       },
       "theme": {
         "menuUrl": "menu",
-        "lang": "no"
+        "lang": "nb"
       }
     },
     "packages": [
@@ -22,7 +22,7 @@ const settings =
         "state": {
           "source": {
             "url": "https://backend2.aamodtgroup.com",
-            "homepage": "/hjem",
+            "homepage": "hjem"
           }
         }
       },
@@ -32,10 +32,10 @@ const settings =
   },
   {
     "name": "english",
-    "match": [".*aamodtgroup2.vercel.app\/en(\/.*)?$"], 
+    "match": [".*aamodtgroup2.vercel.app\/en(\/.*)?$"],
     "state": {
       "frontity": {
-        "url": "https://aamodtgroup2.vercel.app/en",
+        "url": "https://aamodtgroup2.vercel.app/en/",
         "title": "Aamodt Group",
         "description": "Consultants within development and operations"
       },
@@ -53,7 +53,7 @@ const settings =
         "state": {
           "source": {
             "url": "https://backend2.aamodtgroup.com",
-            "homepage": "/home"
+            "homepage": "home"
           }
         }
       },
