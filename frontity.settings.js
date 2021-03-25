@@ -21,8 +21,11 @@ const settings =
         "name": "@frontity/wp-source",
         "state": {
           "source": {
-            "url": "https://backend2.aamodtgroup.com",
-            "homepage": "hjem"
+            "url": "https://alejandro.inmo.cloud/multilenguage/",
+            "homepage": "/homepage",
+            "params": {
+              "lang": "es",
+            },
           }
         }
       },
@@ -32,7 +35,7 @@ const settings =
   },
   {
     "name": "english",
-    "match": [".*aamodtgroup2.vercel.app\/en(\/.*)?$"],
+    "match": [".*localhost:3000\/en(\/.*)?$"],
     "state": {
       "frontity": {
         "url": "https://aamodtgroup2.vercel.app/en/",
@@ -52,8 +55,12 @@ const settings =
         "name": "@frontity/wp-source",
         "state": {
           "source": {
-            "url": "https://backend2.aamodtgroup.com",
-            "homepage": "home"
+            "url": "https://alejandro.inmo.cloud/multilenguage/en/",
+            "subdirectory": "/en",
+            "homepage": "/homepage",
+            "params": {
+              "lang": "en",
+            },
           }
         }
       },

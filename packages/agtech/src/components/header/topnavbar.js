@@ -7,13 +7,13 @@ import darkLogo from "../../images/darklogo.svg";
 import Toggle from "../toggle";
 
 const TopNavbar = ({ state }) => {
-  const { mode } = state.theme;
-
+  const { mode, lang } = state.theme;
+  const homeUrl = (lang == "nb")? "/" : "/en/";
   return (
     <>
       <TopNavContainer>
           <Logo>
-            <Link link="/" alt="Forside link">
+            <Link link={homeUrl} alt="Forside link">
               <img src={mode === 'light' ? logo : darkLogo} alt="logo" width="150px" height="50px" />
             </Link>
           </Logo>
